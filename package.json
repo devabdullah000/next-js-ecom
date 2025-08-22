@@ -17,14 +17,17 @@
     "createseed": "sequelize-cli seed:generate --name"
   },
   "dependencies": {
+    "bcrypt": "^6.0.0",
     "bcryptjs": "^3.0.2",
     "better-sqlite3": "^12.2.0",
+    "jsonwebtoken": "^9.0.2",
     "next": "15.5.0",
     "react": "19.1.0",
     "react-dom": "19.1.0",
     "sequelize": "^6.37.7",
     "sequelize-cli": "^6.6.3",
-    "sqlite3": "^5.1.7"
+    "sqlite3": "^5.1.7",
+    "uuid": "^11.1.0"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
